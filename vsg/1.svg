@@ -1,0 +1,5 @@
+<svg id="Component_13_15" data-name="Component 13 – 15" xmlns="http://www.w3.org/2000/svg" width="136" height="121" viewBox="0 0 136 121">
+  <text id="料金" transform="translate(0 101)" fill="#004ea2" font-size="68" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="0" y="0">料金</tspan></text>
+  <text id="Price" transform="translate(15 17)" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">Price</tspan></text>
+  <circle id="Ellipse_515" data-name="Ellipse 515" cx="5" cy="5" r="5" transform="translate(0 6)" fill="#dd7061"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_65486" data-name="Group 65486" transform="translate(-848 -20)">
+    <circle id="Ellipse_542" data-name="Ellipse 542" cx="15" cy="15" r="15" transform="translate(848 20)" fill="#004ea2"/>
+    <path id="phone-solid" d="M5,.724a1.209,1.209,0,0,0-1.437-.7L.895.748A1.217,1.217,0,0,0,0,1.919,13.587,13.587,0,0,0,13.586,15.505a1.217,1.217,0,0,0,1.171-.895l.728-2.669a1.209,1.209,0,0,0-.7-1.437L11.87,9.291a1.209,1.209,0,0,0-1.4.352l-1.225,1.5A10.249,10.249,0,0,1,4.367,6.265l1.5-1.222a1.21,1.21,0,0,0,.352-1.4L5,.727Z" transform="translate(854.736 27.259)" fill="#fff"/>
+  </g>
+</svg>
