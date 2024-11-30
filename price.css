@@ -1,0 +1,1198 @@
+ /*Heading*/
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ body {
+     width: 100%;
+     /* Chiều rộng của body 100% */
+     min-height: 100vh;
+     /* Chiều cao tối thiểu bằng chiều cao của viewport */
+     font-family: Arial, sans-serif;
+     line-height: 1.6em;
+     margin: 0;
+     /* Xóa khoảng cách mặc định */
+     padding: 0;
+     /* Xóa padding mặc định */
+     box-sizing: border-box;
+     /* Đảm bảo padding và border không làm tăng kích thước */
+     background-color: white;
+ }
+
+ .dautrang_one header {
+     * {
+
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+
+
+     }
+
+
+     .navbar {
+         display: flex;
+         background-color: white;
+         width: 100%;
+         height: 67px;
+         align-items: center;
+         justify-content: space-between;
+         margin-top: 0;
+         text-align: right;
+
+     }
+
+     .logo {
+         display: block;
+         position: relative;
+
+         margin-left: 25px;
+     }
+
+     .logo img {
+         display: block;
+         width: 105px;
+         height: 43px;
+
+     }
+
+     /* Phần header và thanh điều hướng */
+
+
+     .contact {
+         display: flex;
+         align-items: center;
+         /* Căn giữa theo trục dọc */
+         padding-right: 13px;
+         /* Chừa 13px từ mép phải */
+         font-size: 14px;
+         font-family: 'Noto Sans JP';
+         font-weight: bold;
+         text-align: center;
+
+     }
+
+     .contact p {
+         display: flex;
+         color: #004EA2;
+         font-family: 'Poppins';
+         font-weight: bold initial;
+         font-size: 22px;
+         margin-right: 26px;
+         font-style: italic;
+
+
+     }
+
+     .contact-1,
+     .contact-2 {
+         width: 130px;
+         height: 40px;
+         padding: 8px 20px 22px;
+         border-radius: 50px;
+         text-decoration: none;
+         color: #fff;
+         display: inline-block;
+         text-align: center;
+         /* Căn giữa nội dung trong button */
+         margin-right: 10px;
+         /* Khoảng cách giữa các nút */
+         background-size: 130px;
+         background-position: top;
+         font-size: 14px;
+
+     }
+
+     .contact-1 {
+         background: linear-gradient(45deg, #4D99EB, #004EA2);
+     }
+
+     .contact-2 {
+         background: linear-gradient(45deg, #FCA3B5, #FB4E6F);
+     }
+
+     .contact-1:hover {
+         transform: translateY(-3px);
+         /* Nâng nút lên khi hover */
+         box-shadow: 0 4px 15px rgba(77, 153, 235, 0.5);
+         /* Hiệu ứng bóng */
+     }
+
+     /* Hiệu ứng hover cho contact-2 */
+     .contact-2:hover {
+         transform: translateY(-3px);
+         /* Nâng nút lên khi hover */
+         box-shadow: 0 4px 15px rgba(251, 78, 111, 0.5);
+         /* Hiệu ứng bóng */
+     }
+
+     .hotline {
+         display: flex;
+         align-items: center;
+         margin-left: -15px;
+         transition: transform 0.2s ease, box-shadow 0.2s ease;
+         white-space: nowrap;
+         /* Giữ chữ trên cùng một dòng, không bị giãn */
+         flex-shrink: 0;
+         /* Ngăn không cho phần tử bị thu nhỏ hoặc giãn */
+     }
+
+     .hotline img {
+         margin-right: 5px;
+     }
+
+ }
+
+ .pen {
+     position: fixed;
+     width: 100%;
+     height: 110px;
+     z-index: 100;
+     top: 0;
+     left: 0;
+
+ }
+
+ .menu_muiten {
+     position: relative;
+ }
+
+ .menu_muiten:hover ul {
+     opacity: 1;
+     visibility: visible
+ }
+
+ .menu_one {
+     width: 100%;
+     height: 44px;
+     font-family: 'Noto Sans JP';
+     color: #00244E;
+     background-color: #DBE1F4;
+     text-align: center;
+     margin-right: 30px;
+
+
+ }
+
+ .menu_one ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: inline-block;
+     margin-top: 10px;
+
+
+ }
+
+ .menu_one ul li {
+     font-size: 14px;
+     font-weight: bold;
+     display: inline;
+     margin: 0 1em;
+     /* Khoảng cách giữa các mục */
+
+ }
+
+ .menu_one ul li a {
+     text-decoration: none;
+     font-family: 'Noto Sans JP';
+     font-size: 14px;
+     color: #00244E;
+     font-weight: bold;
+ }
+
+ .menu_one ul li a:hover {
+     color: #0078d4;
+     /* Màu khi di chuột qua */
+ }
+
+ .menu_one ul li a {
+     width: 105px;
+     height: 19px;
+
+ }
+
+
+
+
+ /*body1*/
+
+ /* Phần tiêu đề của trang */
+
+ .body1_service {
+    width: 100%;
+    background-color: #f8f8fe;
+    position: relative;
+    height: 320px;
+    padding-top: 95px;
+}
+
+.text_heading {
+    margin-left: 50px;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+
+}
+
+.text01_heading {
+    width: 100%;
+    max-width: 1266px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.text01_heading p {
+    padding-left: 50px;
+}
+
+.text01_heading a {
+    color: #011021;
+  
+    background-position: center right 5px;
+    background-size: 10px 10px;
+    font-size: small;
+}
+.text01_heading img {
+    height: 10px;
+    padding: 0 5px;
+}
+
+.text01_heading span {
+    color: black;
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content_heading {
+    width: 100%;
+    max-width: 1266px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content01_heading {
+    display: flex;
+    position: relative;
+}
+
+.img_tron_content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(400px, -400px);
+    z-index: 1;
+}
+
+.text_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 2;
+    width: 100%;
+    line-height: 0.1;
+    padding-left: 50px;
+}
+
+.text_content h4 {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-weight: 700;
+    margin-top: 0;
+
+}
+
+.text_content h4::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #dd7061;
+}
+
+.text_content h1 {
+    font-family: 'Noto Sans JP';
+    color: #004ea2;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 1.2;
+    margin-top: 0;
+    z-index: 3;
+    margin-top: -10px;
+}
+
+.img_hinh_content {
+    position: absolute;
+    right: 80px;
+    z-index: 2;
+}
+
+
+ /* Tiêu đề chính */
+ #hinhtronan {
+     margin: 0 auto;
+     position: relative;
+     /* Để hình ảnh tuyệt đối có thể dựa vào nó */
+ }
+
+ #hinhtronan img {
+     width: auto;
+     margin-left: -1400px;
+     color: #E5E8F1;
+ }
+
+
+ .head_tow h1 {
+     color: #2d4f9d;
+     font-size: 2.5rem;
+
+ }
+
+ /* Phần chính của nội dung */
+
+
+ .main-section {
+
+
+     width: 846px;
+     height: 806px;
+     margin: 0 auto;
+     text-align: center;
+
+
+ }
+
+ /* Phần giới thiệu văn bản */
+ .intro-text {
+     margin: 19px auto;
+     text-align: center;
+ }
+
+ /* Tiêu đề giới thiệu */
+ .intro-text h2 {
+     font-family: 'Noto Sans JP';
+     font-weight: 900;
+
+     font-size: 45px;
+     color: #2d4f9d;
+ }
+
+ /* Văn bản mô tả giới thiệu */
+ .intro-text p {
+     margin-top: 10px;
+     will-change: 50px;
+     text-indent: 30px;
+     font-size: 16px;
+     letter-spacing: 1.5px;
+     font-family: "Noto Sans JP", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+
+ }
+
+
+
+ /* Phần chứa thông tin giá cả */
+ .chiphi {
+     font-family: "Noto Sans JP", sans-serif;
+     display: flex;
+     justify-content: space-around;
+     margin-top: 30px;
+     height: 568PX;
+
+
+
+
+ }
+
+ /* Hộp giá cả từng mục */
+ .pricing-box {
+     width: 357px;
+     height: 570px;
+     border-top: 16px solid #004EA2;
+     background-color: white;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+     margin-top: 51px;
+     margin-bottom: 26px;
+     transition: transform 1.0s ease, box-shadow 0.5s ease;
+ }
+
+ .pricing-box:hover {
+     transform: scale(1.05);
+     /* Phóng to nhẹ khi hover */
+     box-shadow: 0 8px 16px rgba(0, 78, 162, 0.3);
+     /* Đổ bóng lớn hơn khi hover */
+ }
+
+ /* Tiêu đề hộp giá cả */
+ .pricing-box p {
+     font-family: 'Noto Sans JP';
+     font-size: 22px;
+     font-weight: 700;
+     margin-bottom: 34px;
+     padding-bottom: 26px;
+ }
+
+ .tien {
+     font-size: 40px;
+     font-weight: bold;
+     font-family: "Poppins", sans-serif;
+     font-style: normal;
+     color: #004EA2;
+     margin: 26px 0;
+     text-align: center;
+     line-height: 1.2em;
+     height: 34px;
+     margin-bottom: 40px;
+
+ }
+
+ .maugia {
+     font-size: 16px;
+     color: #004EA2;
+ }
+
+ /* Phong cách cho phần giá */
+ /* Bỏ gạch đầu dòng trong danh sách */
+ .cuoi {
+
+     font-family: "Noto Sans JP", sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+
+     gap: 10px;
+     width: 351px;
+     margin: 0 -30px 0 -30px;
+     list-style: none;
+     margin-bottom: 95px;
+
+ }
+
+ .cuoi li {
+
+     display: flex;
+     /* Kích hoạt Flexbox */
+     justify-content: center;
+     /* Căn giữa theo chiều ngang */
+     align-items: center;
+     /* Căn giữa theo chiều dọc */
+
+     width: 315px;
+     height: 54px;
+     letter-spacing: 2px;
+     text-align: center;
+
+     border-bottom: 1px solid rgba(77, 153, 235, 28%);
+     border-top: 1px solid rgba(77, 153, 235, 28%);
+     transition: background-color 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .cuoi li:hover {
+     background-color: rgba(77, 153, 235, 0.1);
+     /* Thay đổi màu nền khi hover */
+     box-shadow: 0 0 10px rgba(77, 153, 235, 0.5);
+     /* Hiệu ứng phát sáng nhẹ khi hover */
+ }
+
+ ul li.mau {
+     background-color: #F8F8FE;
+
+ }
+
+ .dau {
+     font-size: 30px;
+     font-weight: bold;
+     text-align: center;
+     margin: 329px 27.5px;
+     color: #004EA2;
+     stroke: 5px;
+     padding: 28px;
+ }
+
+
+
+ /*body2*/
+
+ .main_body2 {
+
+     width: 100%;
+     height: auto;
+     margin: 0;
+     padding: 0;
+     margin-top: -4%;
+     background-color: #ffffff;
+     color: #333;
+ }
+
+
+ .text_h2 {
+     font-family: "Noto Sans JP", sans-serif;
+     text-align: center;
+     color: #004EA2;
+     margin: 20px 0;
+     font-size: 45px;
+     font-weight: 800;
+     margin: 200px 0 23px 0;
+
+     line-height: 65px;
+
+ }
+
+ .text_p {
+     font-family: "Noto Sans JP", sans-serif;
+     text-align: center;
+     color: #011021;
+     margin: 23px 0 63px 0;
+     font-weight: 400;
+     padding-top: 23px;
+     line-height: 1em;
+ }
+
+ .option-service {
+
+     text-align: center;
+     display: flex;
+     /* Sử dụng Flexbox cho body */
+     justify-content: center;
+     /* Căn giữa theo chiều ngang */
+     align-items: center;
+     /* Căn giữa theo chiều dọc */
+
+ }
+
+ .option-grid {
+
+     justify-content: center;
+     flex-wrap: wrap;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 40px;
+     padding: 56px 40px;
+     background-color: #F8F8FE;
+     border-radius: 10px;
+     gap: 30px;
+ }
+
+ .option-item {
+
+     background-color: #ffffff;
+     height: 130px;
+     /* Tăng chiều cao để đảm bảo hình tròn */
+     width: 130px;
+     /* Đảm bảo chiều rộng và chiều cao bằng nhau để giữ hình tròn */
+     border-radius: 50%;
+     padding: 20px;
+     /* Điều chỉnh padding để không làm méo chữ */
+     font-size: 18px;
+     font-weight: 700;
+     color: #2f80ed;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     display: flex;
+     box-shadow: 2px 2px 8px 2px rgb(129, 165, 232, 20%);
+     transition: all 0.3s ease;
+
+ }
+
+ .option-item:hover {
+     background-color: #f0f8ff;
+     /* Đổi màu nền khi hover */
+     color: #1a73e8;
+     /* Đổi màu chữ khi hover */
+     box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+     /* Đổ bóng lớn hơn khi hover */
+     transform: scale(1.05);
+     /* Phóng to nhẹ khi hover */
+ }
+
+ .option-item img {
+     height: auto;
+     width: 50px;
+     margin-bottom: 10px;
+     /* Tạo khoảng cách giữa hình ảnh và văn bản */
+ }
+
+
+ .basic-package {
+     width: 100%;
+     height: 1142px;
+     margin-top: 76px;
+     font-family: "Noto Sans JP", sans-serif;
+     background-color: #F8F8FE;
+     border-radius: 10px;
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+     text-align: center;
+ }
+
+ .basic-package1 {
+
+     width: 100%;
+     height: 1142px;
+     padding: 87px 0 106px;
+     background-color: #f8f8fe
+ }
+
+ .l-wrapper {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     position: relative;
+     z-index: 2
+ }
+
+ .p-price-suggestion__container__circle {
+     position: absolute;
+     top: 0;
+     left: 0;
+     opacity: .5;
+     transform: translate(-620px, -50%);
+     z-index: 0
+ }
+
+
+ .p-price-suggestion__container__circle img {
+     width: 100%;
+     height: 100%
+ }
+
+
+ .basic-package1 h5 {
+
+     display: flex;
+     align-items: center;
+     gap: 7px;
+     font-family: "Poppins", sans-serif;
+     font-size: 23px;
+     font-weight: 700;
+     color: #011021;
+     line-height: 30px
+ }
+
+ .basic-package1 h5 span {
+
+     background-color: #dd7061;
+     width: 15px;
+     height: 15px;
+     border-radius: 50%
+ }
+
+ .basic-package1 h2 {
+     font-family: 'Noto Sans JP';
+     margin-top: -40px;
+     font-size: 45px;
+     color: #004ea2;
+     font-weight: 900;
+     line-height: 60px;
+     text-align: center
+ }
+
+
+ .basic-package_tag {
+     min-width: 1226px;
+     min-height: 186px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     z-index: 1;
+
+ }
+
+
+ .p-price-suggestion__tags__item {
+
+
+     margin: 0 15px 0 15px;
+     padding: 0 15px 0 15px;
+
+     width: 363px;
+     height: 187px;
+     border-radius: 10px;
+     overflow: hidden;
+     box-shadow: 0px 0px 50px rgba(0, 78, 162, .16);
+     background-color: #fff;
+
+ }
+
+ .p-price-suggestion__tags__item h4 {
+     font-family: 'Noto Sans JP';
+     font-weight: bold;
+     margin-left: -28px;
+     min-width: 363px;
+     font-size: 22px;
+     font-weight: 700;
+     color: #fff;
+     line-height: 30px;
+     padding: 10px 0;
+     background-color: #004ea2;
+     text-align: center
+ }
+
+ .p-price-suggestion__tags__item-price {
+     display: flex;
+
+     margin-top: -40px;
+     margin-left: -40px;
+     align-items: center;
+     justify-content: center;
+     gap: 14px;
+     color: #004ea2;
+     font-weight: 700;
+     padding: 0 14px;
+
+ }
+
+ .p-price-suggestion__tags__item-price .equivalent {
+
+     width: 87px;
+     height: 87px;
+     background-color: #dd7061;
+     border-radius: 50%;
+     display: flex;
+     flex-direction: column;
+     font-weight: 800;
+     color: #fff;
+     align-items: center;
+     justify-content: center;
+     font-size: 12px;
+     line-height: 10px;
+     flex-shrink: 0
+ }
+
+ .p-price-suggestion__tags__item-price .equivalent-num {
+     font-size: 24px;
+     line-height: 33px
+ }
+
+ .p-price-suggestion__tags__item-price .equivalent-num span {
+     font-size: 16px
+ }
+
+ .p-price-suggestion__tags__item-price .price-wrapper {
+     display: flex;
+     align-items: flex-end;
+     gap: 3px
+ }
+
+ .p-price-suggestion__tags__item-price .price-wrapper div {
+     font-size: 40px;
+     line-height: 56px;
+     font-family: "Poppins", sans-serif
+ }
+
+
+ .p-price-suggestion__tags__item-price .price-wrapper span {
+     font-size: 16px;
+     line-height: 45px
+ }
+
+ .p-price-suggestion__tags-plus.display-none {
+     display: none
+ }
+
+ .p-price-suggestion__options {
+
+     background-color: #fff;
+     padding: 50px 0;
+     padding-bottom: 100px;
+     margin-bottom: 100px;
+     width: 1166px;
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border-radius: 10px;
+     box-shadow: 0 0 50px rgba(0, 78, 162, .16)
+ }
+
+ .p-price-suggestion__options h2 {
+     margin-top: -15px;
+     font-size: 40px;
+     font-weight: 800;
+     color: #004ea2;
+     line-height: 58px;
+     text-align: center;
+
+ }
+
+ .p-price-suggestion__options__hr {
+
+     margin-top: -15px;
+     width: 50px;
+     height: 4px;
+     background-color: #004ea2;
+     border-radius: 8px
+ }
+
+ .p-price-suggestion__options__images {
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+     padding-top: 50px
+ }
+
+ .p-price-suggestion__options__images__item {
+
+     width: 180px;
+     height: 180px;
+     background-color: #fff;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     gap: 10px;
+     color: #004ea2;
+     box-shadow: 0 0 20px rgba(0, 78, 162, .1)
+ }
+
+ .p-price-suggestion__options__images__item .textWrapper {
+     display: flex;
+     flex-direction: column;
+     align-items: center
+ }
+
+ .p-price-suggestion__options__images__item-title {
+     font-size: 18px;
+     line-height: 18px;
+     max-width: 162px;
+     font-weight: 700;
+     text-align: center;
+     max-width: 108px;
+     color: #004ea2;
+     text-align: center
+ }
+
+ .p-price-suggestion__options__images__item-note {
+     text-align: center;
+     color: #004ea2;
+     font-size: 12px;
+     font-weight: 700;
+     line-height: 18px
+ }
+
+ .basic-package_tag {
+     padding: 70px 0 98px;
+
+     justify-content: space-between;
+     align-items: center;
+     z-index: 1;
+ }
+
+ .p-price-suggestion__tags__item {
+     width: 320px;
+     height: 180px;
+     margin-left: 10px;
+     border-radius: 10px;
+     overflow: hidden;
+     box-shadow: 0px 0px 50px rgba(0, 78, 162, .16);
+     background-color: #fff;
+ }
+
+ .p-price-suggestion__tags__item h4 {
+     font-size: 22px;
+     font-weight: 700;
+     color: #fff;
+     line-height: 30px;
+     margin-top: 0;
+     padding: 20px 0;
+     background-color: #004ea2;
+     text-align: center
+ }
+
+ .p-price-suggestion__tags__item-price {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 14px;
+     color: #004ea2;
+     font-weight: 700;
+     padding: 0 11px;
+     min-height: 117px
+ }
+
+ .p-price-suggestion__tags__item-price .equivalent {
+
+     width: 87px;
+     height: 87px;
+     margin-left: 15px;
+     background-color: #dd7061;
+     border-radius: 50%;
+     display: flex;
+     flex-direction: column;
+     font-weight: 800;
+     color: #fff;
+     align-items: center;
+     justify-content: center;
+     font-size: 12px;
+     line-height: 17px;
+     flex-shrink: 0
+ }
+
+ .p-price-suggestion__tags__item-price .equivalent-num {
+     font-size: 24px;
+     line-height: 33px
+ }
+
+ .p-price-suggestion__tags__item-price .equivalent-num span {
+     font-size: 16px
+ }
+
+ .p-price-suggestion__tags__item-price .price-wrapper {
+     padding-left: 10px;
+     display: flex;
+     align-items: flex-end;
+     gap: 3px
+ }
+
+ .p-price-suggestion__tags__item-price .price-wrapper div {
+
+     font-size: 35px;
+     line-height: 56px;
+     font-family: "Poppins", sans-serif
+ }
+
+
+ .p-price-suggestion__tags__item-price .price-wrapper span {
+     font-size: 16px;
+     line-height: 40px
+ }
+
+
+ .p-price-suggestion__tags-plus.display-none {
+     display: none
+ }
+
+
+
+
+
+ /*footer_service*/
+ .footer_all {
+     width: 100%;
+     height: auto;
+ }
+
+ .ft_on_head {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .footer_main {
+     height: 535px;
+     background: rgba(0, 0, 0, 0) linear-gradient(133deg, #4d99eb 0%, #004ea2 100%) 0% 0% no-repeat padding-box;
+     position: relative;
+
+ }
+
+ .footer_on {
+     width: 100%;
+     max-width: 1266px;
+     height: 100%;
+     max-height: 900px;
+     margin: 0 auto;
+
+     font-family: 'Noto Sans JP';
+ }
+
+ .footer_on1 {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .ft_on_left {
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+     z-index: 10;
+     padding: 40px;
+ }
+
+ .on_1 {
+     display: flex;
+     flex-direction: row;
+     align-items: flex-end;
+ }
+
+ .on_1 h3 {
+     font-size: 28px;
+     color: #fff;
+     padding-bottom: 15px;
+     position: relative;
+     font-weight: 700;
+ }
+
+ .on_2 {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     cursor: pointer;
+ }
+
+ .on_2_1 {
+     width: 354px;
+     height: 71px;
+     font-size: 22px;
+     border-radius: 60px;
+     font-family: "Roboto", sans-serif;
+     background: rgba(0, 0, 0, 0) linear-gradient(284deg, #fb4e6f 0%, #fca3b5 100%) 0% 0% no-repeat padding-box;
+ }
+
+ .on_2 h3 {
+     font-size: 22px;
+     color: white;
+     text-align: center;
+     padding-left: 50px;
+ }
+
+ .on_3 {
+     width: 100%;
+     max-width: 1266px;
+     z-index: 5;
+ }
+
+ .on_3 h3 {
+     width: 100%;
+     font-size: 24px;
+     font-weight: 700;
+     color: #fff;
+     letter-spacing: 1px;
+     padding-bottom: 7px;
+     white-space: pre-line;
+     z-index: 4;
+     line-height: 35px;
+ }
+
+ .on_4 {
+     display: flex;
+     flex-direction: row;
+     gap: 40px;
+     align-items: center;
+ }
+
+ .on_4_1 {
+     width: 274px;
+     height: 60px;
+     font-size: 16px;
+     border-radius: 55px;
+     text-align: center;
+     align-items: center;
+ }
+
+ .on_4_1 {
+     background: #fff;
+     color: #004ea2 !important;
+     box-shadow: 0px 3px 6px rgba(0, 78, 162, .16);
+     padding: 10px 20px;
+     font-family: "Noto Sans JP", sans-serif;
+     font-weight: 700;
+     display: flex;
+     justify-content: center;
+     cursor: pointer;
+     position: relative;
+     z-index: 2;
+ }
+
+ .ft_on_right {
+     width: fit-content;
+     right: 0;
+     top: 0;
+     z-index: 3;
+     margin-right: 10%;
+     margin-right: 10%;
+ }
+
+
+
+
+
+ /*ft_oFF_final*/
+ .footer_off {
+     background-color: #e5e8f1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 70px 0 45px 0;
+ }
+
+ .flex {
+     max-width: 1266px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+ }
+
+ .ft_off_lr {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+ }
+
+ .ft_off_img {
+     cursor: pointer;
+ }
+
+ .ft_off_text {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 150px;
+ }
+
+ .ft_off_text01 {
+     display: flex;
+     flex-direction: column;
+     line-height: 2.7em;
+ }
+
+ .ft_off_text01 ul {
+     gap: 30px;
+     font-size: 14px;
+     font-weight: 700;
+ }
+
+ .ft_off_text01 li {
+     font-family: 'Noto Sans JP';
+     font-weight: 700;
+     list-style: none;
+     cursor: pointer;
+ }
+
+ .ft_off_text01 li:hover {
+     font-family: 'Noto Sans JP';
+     font-weight: 700;
+     list-style: none;
+     cursor: pointer;
+     color: red;
+ }
+
+ /*final*/
+ .ft_off_next {
+     display: flex;
+     align-items: center;
+     justify-content: left;
+     width: 100%;
+     max-width: 1266px;
+ }
+
+ .ft_off_next p {
+     color: rgba(1, 16, 33, .6);
+     font-family: "Poppins", sans-serif;
+     font-size: 12px;
+     margin-left: 150px;
+ }

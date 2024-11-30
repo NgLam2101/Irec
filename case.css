@@ -1,0 +1,726 @@
+ /*Heading*/
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+ body {
+     width: 100%;
+     margin: 0;
+     padding: 0;
+     background-color: white;
+ }
+
+ .phan1 {
+
+     padding-bottom: 0;
+ }
+
+ .dautrang_one header {
+     * {
+
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+
+
+
+     }
+
+
+     .navbar {
+         display: flex;
+         background-color: white;
+         width: 100%;
+         height: 67px;
+         align-items: center;
+         justify-content: space-between;
+         margin-top: 0;
+         text-align: right;
+
+     }
+
+     .logo {
+         display: block;
+         position: relative;
+         margin-right: 746px;
+         margin-left: 25px;
+     }
+
+     .logo img {
+         display: block;
+         width: 105px;
+         height: 43px;
+
+     }
+
+     /* Phần header và thanh điều hướng */
+
+
+     .contact {
+         display: flex;
+         align-items: center;
+         /* Căn giữa theo trục dọc */
+         padding-right: 13px;
+         /* Chừa 13px từ mép phải */
+         font-size: 14px;
+         font-family: 'Noto Sans JP';
+         font-weight: bold;
+         text-align: center;
+
+     }
+
+     .contact p {
+         display: flex;
+         color: #004EA2;
+         font-family: 'Poppins';
+         font-weight: bold initial;
+         font-size: 22px;
+         margin-right: 26px;
+         font-style: italic;
+
+
+     }
+
+     .contact-1,
+     .contact-2 {
+         width: 130px;
+         height: 40px;
+         padding: 8px 20px 22px;
+         border-radius: 50px;
+         text-decoration: none;
+         color: #fff;
+         display: inline-block;
+         text-align: center;
+         /* Căn giữa nội dung trong button */
+         margin-right: 10px;
+         /* Khoảng cách giữa các nút */
+         background-size: 130px;
+         background-position: top;
+         font-size: 14px;
+
+     }
+
+     .contact-1 {
+         background: linear-gradient(45deg, #4D99EB, #004EA2);
+     }
+
+     .contact-2 {
+         background: linear-gradient(45deg, #FCA3B5, #FB4E6F);
+     }
+
+     .contact-1:hover {
+         transform: translateY(-3px);
+         /* Nâng nút lên khi hover */
+         box-shadow: 0 4px 15px rgba(77, 153, 235, 0.5);
+         /* Hiệu ứng bóng */
+     }
+
+     /* Hiệu ứng hover cho contact-2 */
+     .contact-2:hover {
+         transform: translateY(-3px);
+         /* Nâng nút lên khi hover */
+         box-shadow: 0 4px 15px rgba(251, 78, 111, 0.5);
+         /* Hiệu ứng bóng */
+     }
+
+     .hotline {
+         display: flex;
+         align-items: center;
+         margin-left: -15px;
+         transition: transform 0.2s ease, box-shadow 0.2s ease;
+         white-space: nowrap;
+         /* Giữ chữ trên cùng một dòng, không bị giãn */
+         flex-shrink: 0;
+         /* Ngăn không cho phần tử bị thu nhỏ hoặc giãn */
+     }
+
+     .hotline img {
+         margin-right: 5px;
+     }
+
+ }
+
+ .pen {
+     position: fixed;
+     width: 100%;
+     height: 110px;
+     z-index: 100;
+     top: 0;
+     left: 0;
+
+ }
+
+ .menu_muiten {
+     position: relative;
+ }
+
+ .menu_muiten:hover ul {
+     opacity: 1;
+     visibility: visible
+ }
+
+ .menu_one {
+     width: 100%;
+     height: 44px;
+     font-family: 'Noto Sans JP';
+     color: #00244E;
+     background-color: #DBE1F4;
+     text-align: center;
+     margin-right: 30px;
+
+
+ }
+
+ .menu_one ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: inline-block;
+     margin-top: 10px;
+
+
+ }
+
+ .menu_one ul li {
+     font-size: 14px;
+     font-weight: bold;
+     display: inline;
+     margin: 0 1em;
+     /* Khoảng cách giữa các mục */
+
+ }
+
+ .menu_one ul li a {
+     text-decoration: none;
+     font-family: 'Noto Sans JP';
+     font-size: 14px;
+     color: #00244E;
+     font-weight: bold;
+ }
+
+ .menu_one ul li a:hover {
+     color: #0078d4;
+     /* Màu khi di chuột qua */
+ }
+
+ .menu_one ul li a {
+     width: 105px;
+     height: 19px;
+
+ }
+
+ .head_body1 {
+     display: flex;
+     justify-content: center;
+     margin-top: 110px;
+     width: 100%;
+     height: 320px;
+     background-color: #f8f8fe;
+ }
+
+ .head_tow {
+     display: flex;
+     position: relative;
+     width: 100%;
+     max-width: 1266px;
+     margin: 0 auto;
+     padding-left: 50px;
+     padding-right: 50px;
+ }
+
+
+ .c-pageTitle__content__item {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     z-index: 2;
+     width: 100%;
+     padding-left: 50px;
+     padding-right: 50px;
+ }
+
+ .c-pageTitle__content__item h4::before {
+     content: "";
+     display: block;
+     width: 10px;
+     height: 10px;
+     border-radius: 50%;
+     background-color: #dd7061;
+ }
+
+ .c-pageTitle__content__item h4 {
+     padding-top: 62px;
+     display: flex;
+     align-items: center;
+     gap: 5px;
+     font-family: "Poppins", sans-serif;
+     color: #000;
+     font-weight: 700;
+     margin-top: 0;
+ }
+
+ .c-pageTitle__content__item h1 {
+     font-family: 'Noto Sans JP';
+     ;
+     color: #004ea2;
+     font-weight: 900;
+     font-size: 68px;
+     line-height: 1.2;
+     margin-top: 0;
+ }
+
+ .c-pageTitle__content__image {
+     position: absolute;
+     z-index: 2;
+     right: 80px;
+     margin-top: 10px;
+ }
+
+
+
+ .l-sec {
+     width: 100%;
+     max-width: 1266px;
+     margin: 0 auto;
+     padding-left: 50px;
+     padding-right: 50px;
+
+ }
+
+ .new {
+     width: 100%;
+     max-width: 1266px;
+     margin: 0 auto;
+     padding-left: 50px;
+     padding-right: 50px;
+ }
+
+
+
+ .p-case__categories {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-items: center;
+     gap: 20px;
+     padding: 60px 60px 0 60px;
+     margin: 60px 60px 0 60px;
+
+ }
+
+ .p-case__categories a {
+     text-decoration: none;
+ }
+
+ .link-doc {
+     padding: 6.5px 40px;
+     border-radius: 22px;
+     background-color: #ccc;
+     color: #fff;
+     font-weight: bold;
+ }
+
+ .active-1 {
+     background-color: #004EA2 !important;
+ }
+
+ .link-doc:hover {
+
+     box-shadow: 0 0 10px rgba(77, 153, 235, 0.5);
+
+ }
+
+ .p-case__posts {
+     font-family: 'Noto Sans JP';
+     display: flex;
+     flex-wrap: wrap;
+     gap: 38px;
+     justify-content: center;
+
+     z-index: 3;
+     position: relative;
+     margin-top: 80px;
+ }
+
+
+
+
+ .p-case__posts a {
+     color: #050505;
+     text-decoration: none;
+ }
+
+ .caseCard {
+     width: 363px;
+     height: 408px;
+     border-radius: 10px;
+     box-shadow: 0 4px 20px rgba(0, 78, 162, .1);
+     overflow: hidden;
+     line-height: 20px;
+     cursor: pointer;
+     background-color: #fff;
+     box-shadow: 0 0 10px rgba(77, 153, 235, 0.5);
+     transition: box-shadow 0.3s ease;
+ }
+
+ .caseCard:hover {
+
+     box-shadow: 0 0 20px rgba(77, 153, 235, 0.7);
+ }
+
+ .caseCard__image {
+     height: 191px;
+     width: 100%;
+
+ }
+
+ .caseCard__body {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     justify-content: flex-start;
+     padding: 20px 20px 0px;
+ }
+
+
+ .caseCard__body__tag {
+     padding: 2px 30px;
+     border-radius: 12px;
+     background-color: #004ea2;
+     font-size: 14px;
+     color: #fff;
+     width: fit-content;
+ }
+
+ .caseCard__body p {
+     font-size: 14px;
+     color: #011021;
+     text-overflow: ellipsis;
+     overflow: hidden;
+     white-space: nowrap;
+ }
+
+ .caseCard__body h2 {
+     font-size: 18px;
+     color: #004ea2;
+     font-weight: 700;
+     display: -webkit-box;
+     -webkit-box-orient: vertical;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     margin-top: -10px;
+
+
+ }
+
+ .caseCard__body__category {
+     display: flex;
+     gap: 10px;
+ }
+
+ .caseCard__body__category span {
+     padding: 3px 23px;
+     border-radius: 6px;
+     border: 1px solid #004ea2;
+     font-size: 14px;
+     color: #004ea2;
+ }
+
+ .number {
+     display: flex;
+     justify-content: center;
+     padding: 0 50px 0 60px;
+     margin: 0 auto;
+     margin-top: 60px;
+     padding-bottom: 40px;
+ }
+
+ .page_1 {
+     font-family: 'Noto Sans JP';
+     font-size: 20px;
+     color: #004ea2;
+ }
+
+ .number_1 {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     color: #004ea2;
+     font-size: 20px;
+     font-weight: 600
+ }
+
+ .number_1 {
+     list-style: none;
+ }
+
+ .number_1 .number_2 {
+     background-color: #f0f0fa;
+     color: #000;
+
+ }
+
+ .number_1 li {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 36px;
+     height: 36px;
+     border-radius: 50%;
+
+ }
+
+ .number_1 a {
+     font-family: 'Noto Sans JP';
+     text-decoration: none;
+     color: #004ea2;
+
+ }
+
+ .number_1 {
+     display: flex;
+     /* Sắp xếp các phần tử theo hàng ngang */
+     justify-content: center;
+     /* Căn giữa các mục trong ul */
+     list-style: none;
+     /* Bỏ dấu chấm của danh sách */
+     padding: 0;
+     margin: 0;
+ }
+
+ .page-numbers {
+     display: flex;
+     align-items: center;
+     /* Căn giữa hình ảnh theo trục dọc */
+     justify-content: center;
+     padding: 8px;
+     text-decoration: none;
+ }
+
+ .page-numbers img {
+     width: 18px;
+     /* Điều chỉnh kích thước hình ảnh */
+     height: 18px;
+ }
+
+ .hate {
+     background-color: #004EA2;
+     border-radius: 50%;
+ }
+
+
+
+ /*footer*/
+ footer {
+     display: block;
+ }
+
+ .l-footer__top {
+     height: 535px;
+     background: rgba(0, 0, 0, 0) linear-gradient(133deg, #4d99eb 0%, #004ea2 100%) 0% 0% no-repeat padding-box;
+     position: relative;
+     display: flex;
+     align-items: center;
+ }
+
+ .l-wrapper {
+     width: 100%;
+     max-width: 1266px;
+     margin: 0 auto;
+     padding-left: 50px;
+     padding-right: 50px;
+ }
+
+ .l-footer__top__inner {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 20px;
+     position: relative;
+ }
+
+ .l-footer__top__inner__logo {
+     display: flex;
+     align-items: flex-end;
+     color: #fff;
+     font-weight: 700;
+ }
+
+ .l-footer__top__inner__logo {
+     font-size: 28px;
+ }
+
+ .btn-secondary.shadow-high {
+     box-shadow: 0px 10px 30px rgba(251, 78, 111, .5);
+ }
+
+ .c-btn.large {
+     width: 354px;
+     height: 71px;
+     font-size: 22px;
+     border-radius: 60px;
+     font-family: "Roboto", sans-serif;
+ }
+ .c-btn__arrow-right {
+    position: absolute;
+    right: 11px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+ a {
+     color: #050505;
+     text-decoration: none;
+
+ }
+
+ .btn-secondary {
+     background: rgba(0, 0, 0, 0) linear-gradient(284deg, #fb4e6f 0%, #fca3b5 100%) 0% 0% no-repeat padding-box;
+     box-shadow: 0px 3px 6px rgba(129, 38, 55, .18);
+ }
+
+ .c-btn {
+     padding: 10px 20px;
+     font-family: "Noto Sans JP", sans-serif;
+     /* font-weight: 700; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #fff !important;
+     transition: all .3s ease-in-out;
+     cursor: pointer;
+     position: relative;
+     z-index: 2;
+ }
+
+ .l-footer__top__inner__text {
+     font-size: 24px;
+     font-weight: 700;
+     color: #fff;
+     letter-spacing: 1px;
+     padding-bottom: 7px;
+     white-space: pre-line;
+     z-index: 4;
+     line-height: 35px;
+ }
+
+ .l-footer__top__inner__buttons {
+     display: flex;
+     gap: 40px;
+     align-items: center;
+ }
+
+ .c-btn.medium {
+     width: 250px;
+
+     font-size: 16px;
+     border-radius: 55px;
+ }
+
+ .c-btn {
+     padding: 10px 20px;
+     font-family: "Noto Sans JP", sans-serif;
+     font-weight: 700;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #fff !important;
+     transition: all .3s ease-in-out;
+     cursor: pointer;
+     position: relative;
+     z-index: 2;
+ }
+
+ .btn-white {
+
+
+     background: #fff;
+     color: #004ea2 !important;
+     box-shadow: 0px 3px 6px rgba(0, 78, 162, .16);
+ }
+
+ .l-footer__top__inner__image {
+     width: fit-content;
+     position: absolute;
+     right: 0;
+     z-index: 3;
+ }
+
+ .l-footer__top .circle {
+     position: absolute;
+     z-index: 1;
+     right: 0;
+     top: 0;
+     transform: translateX(423px) translateY(-680px);
+     opacity: .5;
+     mask-image: linear-gradient(rgb(0, 0, 0) 30%, rgba(0, 0, 0, 0.1));
+ }
+
+
+
+
+ .footer-links {
+     display: flex;
+     justify-content: center;
+     /* Căn giữa nội dung theo chiều ngang */
+     align-items: center;
+     /* Căn giữa nội dung theo chiều dọc */
+     gap: 50px;
+     /* Khoảng cách giữa các cột */
+     padding: 20px 0;
+    
+     background-color: #e5e8f1;
+ }
+
+ .footer-column {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     /* Khoảng cách giữa các liên kết */
+     text-align: left;
+     /* Căn chỉnh văn bản bên trái */
+
+ }
+
+ .dong1 {
+     max-width: 954px;
+     gap: 40px;
+     display: flex;
+     justify-content: space-between;
+     margin-left: 30%;
+     margin-top: 40px;
+
+ }
+
+ .footer-column a {
+
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     font-size: 14px;
+     font-weight: 700;
+
+ }
+
+ .footer_logo_bottoom {
+     display: flex;
+     justify-content: center;
+     /* Căn giữa logo theo chiều ngang */
+     align-items: center;
+     /* Căn giữa logo theo chiều dọc */
+
+
+ }
+.final{
+    background-color: #e5e8f1;
+}
+ .footer-bottom {  
+     background-color: #e5e8f1;
+     padding-left:250px ;
+ }
+
+ .footer-bottom p {
+     color: #777;
+     font-size: 14px;
+ }
