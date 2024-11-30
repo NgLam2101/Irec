@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="77" height="77" viewBox="0 0 77 77">
+  <g id="FLAT" transform="translate(-24 -24.314)">
+    <rect id="Rectangle_25941" data-name="Rectangle 25941" width="77" height="77" rx="5" transform="translate(24 24.315)" fill="#e6edff"/>
+    <g id="Group_59930" data-name="Group 59930" transform="translate(27.999 27.999)">
+      <path id="Path_130247" data-name="Path 130247" d="M48,48h2.515v2.666H48Z" transform="translate(-48 -48)" fill="#bebebe"/>
+      <path id="Path_130248" data-name="Path 130248" d="M80,48h2.515v2.666H80Z" transform="translate(-74.97 -48)" fill="#bebebe"/>
+      <path id="Path_130249" data-name="Path 130249" d="M112,48h2.515v2.666H112Z" transform="translate(-101.939 -48)" fill="#bebebe"/>
+      <path id="Path_130250" data-name="Path 130250" d="M144,48h54.075v2.666H144Z" transform="translate(-128.909 -48)" fill="#bebebe"/>
+      <path id="Path_130251" data-name="Path 130251" d="M168,96h27.666v2.666H168Z" transform="translate(-149.137 -88.002)" fill="#bebebe"/>
+      <path id="Path_130252" data-name="Path 130252" d="M64,128H75.318v2.666H64Z" transform="translate(-61.485 -114.67)" fill="#bebebe"/>
+      <path id="Path_130253" data-name="Path 130253" d="M64,248H81.606v2.666H64Z" transform="translate(-61.485 -214.675)" fill="#bebebe"/>
+    </g>
+    <path id="Path_130254" data-name="Path 130254" d="M64,168h63.984v8H64Z" transform="translate(-33.335 -120.006)" fill="#004ea2"/>
+    <path id="Path_130255" data-name="Path 130255" d="M64,288h63.984v8H64Z" transform="translate(-33.335 -220.011)" fill="#004ea2"/>
+    <path id="Path_130256" data-name="Path 130256" d="M64,368H82.662v2.666H64Z" transform="translate(-33.335 -286.681)" fill="#bebebe"/>
+    <path id="Path_130257" data-name="Path 130257" d="M64,408h63.984v8H64Z" transform="translate(-33.335 -320.016)" fill="#004ea2"/>
+    <path id="Path_130258" data-name="Path 130258" d="M332.9,210.836l-11.644-8.5-3.371,14.019,4.545-3.09,3.677,10.01,5-1.839-3.677-10.01Z" transform="translate(-244.919 -148.618)" fill="#338dbf"/>
+  </g>
+</svg>
