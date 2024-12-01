@@ -302,6 +302,9 @@ body {
     font-size: 22px;
     line-height: 1;
 }
+.text_tospan {
+  font-size: 16px;
+}
 
 .text_top {
     line-height: 1;
